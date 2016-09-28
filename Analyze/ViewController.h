@@ -8,8 +8,17 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface ViewController : NSViewController
+@interface ViewController : NSViewController<NSTableViewDelegate, NSTableViewDataSource>
 
+@property (weak) IBOutlet NSTextField *searchFilePathTextFiled;
+
+@property (weak) IBOutlet NSButtonCell *browseButton;
+
+@property (weak) IBOutlet NSTableView *resultTableView;
+
+@property (weak) IBOutlet NSButton *analyzeButton;
+
+@property (weak) IBOutlet NSTextField *resultLabel;
 
 @end
 

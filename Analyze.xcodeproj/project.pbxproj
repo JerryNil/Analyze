@@ -12,6 +12,7 @@
 		BC3110701D9A62D500EAA0F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31106F1D9A62D500EAA0F2 /* ViewController.m */; };
 		BC3110721D9A62D500EAA0F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3110711D9A62D500EAA0F2 /* Assets.xcassets */; };
 		BC3110751D9A62D500EAA0F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3110731D9A62D500EAA0F2 /* Main.storyboard */; };
+		BC31107E1D9A6D4600EAA0F2 /* BTSymbolItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31107D1D9A6D4600EAA0F2 /* BTSymbolItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		BC3110711D9A62D500EAA0F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3110741D9A62D500EAA0F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC3110761D9A62D500EAA0F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC31107C1D9A6D4600EAA0F2 /* BTSymbolItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSymbolItem.h; sourceTree = "<group>"; };
+		BC31107D1D9A6D4600EAA0F2 /* BTSymbolItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSymbolItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				BC3110731D9A62D500EAA0F2 /* Main.storyboard */,
 				BC3110761D9A62D500EAA0F2 /* Info.plist */,
 				BC31106B1D9A62D500EAA0F2 /* Supporting Files */,
+				BC31107C1D9A6D4600EAA0F2 /* BTSymbolItem.h */,
+				BC31107D1D9A6D4600EAA0F2 /* BTSymbolItem.m */,
 			);
 			path = Analyze;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC31107E1D9A6D4600EAA0F2 /* BTSymbolItem.m in Sources */,
 				BC3110701D9A62D500EAA0F2 /* ViewController.m in Sources */,
 				BC31106D1D9A62D500EAA0F2 /* main.m in Sources */,
 				BC31106A1D9A62D500EAA0F2 /* AppDelegate.m in Sources */,
